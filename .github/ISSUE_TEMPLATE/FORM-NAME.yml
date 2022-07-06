@@ -33,6 +33,7 @@ body:
     attributes:
       label: Relevant logs and/or screenshots/GIFs
       description: If applicable, paste any relevant logs
+      render: shell
       placeholder: Please use code blocks (```) to format console output, logs, and code, as it is very hard to read otherwise
     validations:
       required: true
@@ -56,12 +57,15 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
-  - type: textarea
-    id: logs
+  - type: dropdown
+    id: os
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
+      label: What OS did you use?
+      multiple: true
+      options:
+        - Mac OS
+        - Windows
+        - Linux
   - type: checkboxes
     id: terms
     attributes:
