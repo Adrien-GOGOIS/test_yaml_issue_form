@@ -26,7 +26,14 @@ body:
       label: What happened?
       description: Describe the bug - What is the current behavior?
       placeholder: A clear and concise description of what actually happens
-      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: relevant-logs
+    attributes:
+      label: Relevant logs and/or screenshots/GIFs
+      description: If applicable, paste any relevant logs
+      placeholder: Please use code blocks (```) to format console output, logs, and code, as it is very hard to read otherwise
     validations:
       required: true
   - type: dropdown
@@ -35,8 +42,8 @@ body:
       label: Version
       description: What version of our software are you running?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1.4.9 (Default)
+        - 1.4.10 (Edge)
     validations:
       required: true
   - type: dropdown
