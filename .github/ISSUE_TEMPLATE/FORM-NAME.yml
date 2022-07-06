@@ -69,4 +69,4 @@ body:
   - type: markdown
     attributes:
       value: |
-      Please read our [contribute section](https://github.com/chutney-testing/chutney/blob/master/CONTRIBUTING.md)
+        Please read our [contribute section](https://github.com/chutney-testing/chutney/blob/master/CONTRIBUTING.md)
