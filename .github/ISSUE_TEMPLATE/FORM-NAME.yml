@@ -9,7 +9,7 @@ body:
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-      literal_block: |
+      value: |
         🙌 Please, make sure your bug report is unique 🦄 ! 
         Did you search issues labeled with Bug ? If you find anything relevant to you, up-vote 👍 or add a comment 💬 !
   - type: input
