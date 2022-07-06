@@ -8,7 +8,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        🙌 Please, make sure your bug report is unique 🦄 ! Did you search issues labeled with Bug ? If you find anything relevant to you, up-vote 👍 or add a comment 💬 !
+      literal_block: |
+        🙌 Please, make sure your bug report is unique 🦄 ! 
+        Did you search issues labeled with Bug ? If you find anything relevant to you, up-vote 👍 or add a comment 💬 !
   - type: input
     id: contact
     attributes:
