@@ -68,6 +68,6 @@ body:
         - Linux
   - type: markdown
     attributes:
-    label: Contribution
-      value: |
+      label: Contribution
+      literal_block: |
         Please read our [contribute section](https://github.com/chutney-testing/chutney/blob/master/CONTRIBUTING.md)
