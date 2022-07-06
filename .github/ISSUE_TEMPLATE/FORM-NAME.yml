@@ -66,8 +66,7 @@ body:
         - Mac OS
         - Windows
         - Linux
-  - type: checkboxes
-    id: terms
+  - type: markdown
     attributes:
-      label: Contributing
-      description: Please read our [contribute section](https://github.com/chutney-testing/chutney/blob/master/CONTRIBUTING.md)
+      value: |
+      Please read our [contribute section](https://github.com/chutney-testing/chutney/blob/master/CONTRIBUTING.md)
