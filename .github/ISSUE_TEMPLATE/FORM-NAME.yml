@@ -70,7 +70,7 @@ body:
     id: terms
     attributes:
       label: Contributing
-      description: Please read our contribute section
+      description: Please read our [contribute section](https://github.com/chutney-testing/chutney/blob/master/CONTRIBUTING.md)
       options:
         - label: I agree to follow this project's Contributing instructions
           required: true
