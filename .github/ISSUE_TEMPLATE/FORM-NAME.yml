@@ -21,7 +21,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Steps to reproduce
+    id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
       description: How one can reproduce the issue ?
@@ -38,7 +38,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: Possible fixes
+    id: possible-fixes
     attributes:
       label: Possible fixes
       description: If you can, link to the line of code that might be responsible for the problem
